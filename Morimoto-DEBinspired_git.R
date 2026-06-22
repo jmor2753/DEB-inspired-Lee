@@ -1,26 +1,4 @@
 
-############################################################
-## CLEAN INDIVIDUAL-LEVEL ADULT DEB-INSPIRED ANALYSIS
-## Lee et al. Drosophila adult diet, lifespan and reproduction
-## Cleaned final draft with rail/concentration survival validation
-##
-## Structure:
-##   0. Packages and user settings
-##   1. Read and clean data
-##   2. Target point
-##   3. DEB-inspired variables
-##   4. Core statistical models
-##   5. Prediction and calibration objects
-##   6. Main and supplementary figure objects
-##   7. Sensitivity analyses
-##   8. Save all outputs
-##
-## Saving rule:
-##   All write.csv(), capture.output(), ggsave(), and png() calls
-##   are placed at the end of the script.
-############################################################
-
-
 ## =========================================================
 ## 0. Packages and user settings
 ## =========================================================
@@ -2283,13 +2261,6 @@ ggsave(
 ## =========================================================
 ## 7. Sensitivity analyses
 ## =========================================================
-## ---------------------------------------------------------
-## Add-my-Pet Bactrocera oleae reference values
-## ---------------------------------------------------------
-## Used only in sensitivity analysis.
-## Adult-only model directly uses kap_R and maintenance.
-## p_M is converted into an equivalent daily maintenance fraction.
-## ---------------------------------------------------------
 
 
 ## ---------------------------------------------------------
