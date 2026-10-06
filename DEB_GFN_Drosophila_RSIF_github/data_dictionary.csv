@@ -1,0 +1,12 @@
+column,description
+carb_eaten,Daily carbohydrate intake per fly.
+protein_eaten,Daily protein intake per fly.
+lifespan,Adult lifespan.
+lifetimeegg,Lifetime egg production.
+dailyeggs,Average daily egg production.
+treatment,Diet-treatment identifier.
+replicate,Replicate identifier within treatment.
+Ratio,Nominal protein:carbohydrate rail.
+Food,Food concentration.
+P_fixed,Nominal fixed protein concentration.
+C_fixed,Nominal fixed carbohydrate concentration.

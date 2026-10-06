@@ -1,0 +1,38 @@
+title: "A DEB-inspired bioenergetic model linking nutritional geometry to age-specific mortality"
+author: "Juliano Morimoto"
+description: "Reproducible R analysis for a DEB-inspired nutritional-geometry model of age-specific mortality in Drosophila melanogaster."
+input_data:
+  - path: "data/Dataset_Lee_Nutrigonometry.csv"
+    description: "Individual-level nutritional-geometry dataset with adult protein intake, carbohydrate intake, lifespan and reproduction."
+main_script: "R/run_analysis.R"
+output_directory: "outputs"
+software:
+  language: "R"
+  required_packages:
+    - tidyverse
+    - mgcv
+    - glmmTMB
+    - coxme
+    - survival
+    - splines
+    - performance
+    - DHARMa
+    - patchwork
+    - viridis
+    - scales
+    - broom
+    - broom.mixed
+    - ggforce
+    - car
+    - DescTools
+    - cowplot
+analyses:
+  - "DEB-inspired energetic state-variable derivation"
+  - "Discrete-time survival modelling"
+  - "Treatment-level prediction and calibration"
+  - "One-at-a-time and global sensitivity analyses"
+  - "Unequal protein/carbohydrate assimilation scenarios"
+  - "Maintenance-penalty scenarios"
+  - "Lipid-adjusted body-composition scenario"
+  - "Quantity-versus-quality compensation analysis"
+license: "Not specified"
